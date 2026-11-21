@@ -1,0 +1,33 @@
+/* NetNote Assistant chat widget */
+.nn-chat-btn{position:fixed;right:20px;bottom:20px;z-index:200;display:flex;align-items:center;gap:10px;background:var(--blue,#1E75FF);color:#fff;border:0;border-radius:99px;padding:12px 20px 12px 14px;font:600 1rem var(--font-body,sans-serif);cursor:pointer;box-shadow:0 10px 28px rgba(11,31,74,.35)}
+.nn-chat-btn:hover{background:var(--blue-d,#1559C9)}
+.nn-chat-btn .av{width:30px;height:30px;border-radius:50%;background:#fff;display:grid;place-items:center}
+.nn-chat-btn .av img{width:22px}
+.nn-chat-btn .badge{position:absolute;top:-4px;right:-2px;width:14px;height:14px;border-radius:50%;background:#2ECC71;border:2px solid #fff}
+.nn-chat{position:fixed;right:20px;bottom:20px;width:380px;max-width:calc(100vw - 24px);height:560px;max-height:calc(100vh - 40px);z-index:210;background:#fff;border-radius:14px;box-shadow:0 24px 70px rgba(6,18,43,.4);display:none;flex-direction:column;overflow:hidden;border:1px solid #D3E1F6}
+.nn-chat.open{display:flex}
+.nn-head{background:#0B1F4A;color:#fff;padding:14px 16px;display:flex;align-items:center;gap:12px}
+.nn-head .av{width:40px;height:40px;border-radius:50%;background:#fff;display:grid;place-items:center;flex:none}
+.nn-head .av img{width:30px}
+.nn-head b{display:block;font:700 1.02rem var(--font-head,sans-serif)}
+.nn-head small{color:#9DB4E4}
+.nn-head button{margin-left:auto;background:none;border:0;color:#fff;font-size:1.5rem;cursor:pointer;line-height:1}
+.nn-msgs{flex:1;overflow-y:auto;padding:16px;background:#F6F9FF;display:flex;flex-direction:column;gap:10px}
+.nn-m{max-width:86%;padding:10px 14px;border-radius:14px;font-size:.95rem;line-height:1.5;word-wrap:break-word}
+.nn-m.bot{background:#fff;border:1px solid #D3E1F6;align-self:flex-start;border-bottom-left-radius:4px;color:#14213D}
+.nn-m.me{background:#1E75FF;color:#fff;align-self:flex-end;border-bottom-right-radius:4px}
+.nn-m a{color:#1559C9;font-weight:600}
+.nn-links{display:flex;flex-direction:column;gap:6px;margin-top:8px}
+.nn-links a{display:block;border:1px solid #BBD5FF;background:#E6F0FF;border-radius:8px;padding:7px 10px;text-decoration:none}
+.nn-chips{display:flex;flex-wrap:wrap;gap:6px;padding:0 16px 10px;background:#F6F9FF}
+.nn-chips button{border:1px solid #1E75FF;background:#fff;color:#1559C9;border-radius:99px;padding:6px 12px;font:500 .88rem var(--font-body,sans-serif);cursor:pointer}
+.nn-chips button:hover{background:#1E75FF;color:#fff}
+.nn-typing{display:flex;gap:4px;padding:12px 14px}
+.nn-typing i{width:7px;height:7px;border-radius:50%;background:#8AA3D6;animation:nnb 1s infinite}
+.nn-typing i:nth-child(2){animation-delay:.15s}.nn-typing i:nth-child(3){animation-delay:.3s}
+@keyframes nnb{0%,60%,100%{transform:none;opacity:.5}30%{transform:translateY(-5px);opacity:1}}
+.nn-form{display:flex;gap:8px;padding:12px;border-top:1px solid #D3E1F6;background:#fff}
+.nn-form input{flex:1;margin:0;padding:11px 14px;border-radius:99px}
+.nn-form button{background:#1E75FF;color:#fff;border:0;border-radius:99px;padding:0 18px;font:600 .95rem var(--font-body,sans-serif);cursor:pointer}
+.nn-note{font-size:.72rem;color:#51607E;text-align:center;padding:0 12px 8px;background:#fff}
+@media(max-width:480px){.nn-chat{right:0;bottom:0;width:100vw;max-width:100vw;height:100vh;max-height:100vh;border-radius:0}.nn-chat-btn span.t{display:none}.nn-chat-btn{padding:12px}}

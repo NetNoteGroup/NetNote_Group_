@@ -1,0 +1,27 @@
+﻿category,title,description,price,unit,service
+CCTV & Security,4-camera CCTV package,"Supply and installation with DVR, cabling and phone viewing.",35000,,surveillance-access
+CCTV & Security,8-camera CCTV package,"Larger premises: more cameras, bigger storage, full setup.",60000,,surveillance-access
+CCTV & Security,IP camera / NVR system,High-resolution networked cameras with NVR and PoE.,80000,,surveillance-access
+CCTV & Security,Remote viewing setup,View your cameras live from your phone anywhere.,3000,,surveillance-access
+CCTV & Security,CCTV maintenance and repair,"Fault diagnosis, camera and DVR servicing per visit.",2500,,surveillance-access
+CCTV & Security,Access control and alarms,Biometric or card access and alarm systems.,,,surveillance-access
+CCTV & Security,Cybersecurity and security audit,"Firewall setup, vulnerability checks and network security.",,,security-audit
+Networking & IT Support,Wi-Fi setup,"Home or office Wi-Fi design, installation and tuning.",5000,,network-design
+Networking & IT Support,Internet installation,"Router, cabling and connectivity setup.",3500,,network-design
+Networking & IT Support,Network troubleshooting visit,On-site diagnosis and fix for slow or failing networks.,2500,,managed-it
+Networking & IT Support,Computer repair and software,"Repairs, installs, upgrades and clean-ups.",1000,,managed-it
+Networking & IT Support,IT consultancy,"Advice on systems, networks and tools, per hour.",2500,/hr,managed-it
+Networking & IT Support,LAN and structured cabling,"Cabling, racks and network points for offices and buildings.",,,network-design
+Networking & IT Support,Server installation and maintenance,"Server setup, backups, monitoring and support.",,,managed-it
+Websites & Software,Portfolio or landing page,One-page responsive site with contact buttons.,15000,,web-design
+Websites & Software,Business website,Multi-page responsive site with your branding.,35000,,web-design
+Websites & Software,E-commerce website,"Online shop with products, cart and payments.",80000,,web-design
+Websites & Software,"Domain, hosting and email","Domain registration, hosting and business email setup.",5000,,web-design
+Websites & Software,Website maintenance,"Updates, backups and fixes every month.",3000,/mo,web-design
+Websites & Software,Digital business card (NFC + QR),Tap-to-share NFC card with a QR code linking to your digital profile. Annual maintenance: KSh 500.,5000,exact,web-design
+Websites & Software,Custom-branded digital business card,"NFC and QR card designed with your business colours, logo and branding. Annual maintenance: KSh 500.",6000,exact,web-design
+Websites & Software,Custom web or mobile app,Software built around your business needs.,,,software-erp
+Robotics & Drones,Drone mapping and survey,Aerial mapping and land surveys.,,,aerial-survey
+Robotics & Drones,Agricultural drone solutions,Crop monitoring and precision agriculture.,,,aerial-survey
+Robotics & Drones,Drone and robotics training,"Operations, safety and flight planning.",,,drone-training
+Robotics & Drones,Custom UAV or embedded project,Design and build of autonomous systems.,,,drone-training

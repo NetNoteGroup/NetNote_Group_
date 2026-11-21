@@ -1,0 +1,5 @@
+﻿date,type,category,title,author,summary,body,video_url,image_url,published
+2026-11-19,blog,security,Example blog: Why backups matter,NetNote Group,One-line summary shown on the card.,"First paragraph goes here.
+
+Leave a blank line (or type || ) between paragraphs.",,,yes
+2026-11-20,vlog,general,Example vlog: Tech update of the week,NetNote Group,Short description of the video.,Optional text shown under the video.,https://www.youtube.com/watch?v=XXXXXXXXXXX,,yes
